@@ -1,5 +1,5 @@
 # This script create a report to judge the effectiveness of code review for all PR in github. 
-# It used gh API to extract data from Github repo.
+# It uses "gh API" to extract data from Github repo.
 
 # 1. Extract all data from github
 # 2. Create Dataframe with all data
