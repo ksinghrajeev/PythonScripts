@@ -32,7 +32,7 @@ jsonExtension = '.json'
 excelExtension = '.xlsx'
 unwantedColumns = ['node_id','url','diff_url','patch_url','issue_url','commits_url','review_comments_url','review_comment_url','comments_url', 'head.label','base.label','requested_teams','user.node_id','user.avatar_url','user.html_url','assignee.login','assignee.id','assignee.node_id','assignee.avatar_url','assignee.html_url','_links.html.href','diff_hunk','patch']
 
-base_command = 'gh api -per_page=100 -page=2000 --paginate -H "Accept: application/vnd.github.v3.raw+json" /repos/anviswa1/melco-ec/'
+base_command = 'gh api -per_page=100 -page=2000 --paginate -H "Accept: application/vnd.github.v3.raw+json" /repos/ksinghrajeev/xyz/'
 command_to_extract_pr = base_command + 'pulls?state=closed  > ' + pr_FileName + jsonExtension
 command_to_extract_pr_comments = base_command + 'pulls/comments > ' + pr_Comment_FileName + jsonExtension
 
